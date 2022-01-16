@@ -1,0 +1,16 @@
+user - sangalesumit12@gmail.com | sumitsangale
+pass - sam@2120
+
+**create repository private
+
+git config --global user.name "sumit sangale"
+git config --global user.email "sangalesumit12@gmail.com"
+git init
+git add .
+git commit -m "initial commit"
+git status #just see status
+git remote add origin <ssh link>
+git push origin master
+create ssh key and add in account setting
+ssh-keygen -t ed25519 -C "sangalesumit12@gmail.com"
+cat <path by public key saved>
