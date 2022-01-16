@@ -1,0 +1,48 @@
+doctype html
+html
+  head
+    title pop dance academy
+    style
+      include ../static/style.css
+  body
+    nav#navbar 
+      ul 
+        div#logo 
+          img(src="/static/logo.png", alt="")
+        li #[a(href="/") Home ]
+        li #[a(href="/") About ]
+        li #[a(href="/") Services ]
+        li #[a(href="/") Class Info ]
+        li #[a(href="/") Contact ]
+    section#introsection 
+      div Welcome to Pop Dance Academy 
+      div.small Eat Sleep Dance Repeat 
+
+    section#missionsection 
+      h2 Our Mission
+      div.card 
+        H3 Dance Perfection
+          div
+            img(src="/static/image1.png", alt="")
+            p This is the most popular dance academy 
+        H3 Dance the way you like
+          div
+            img(src="/static/image2.png", alt="")
+            p This is the most popular dance academy 
+        H3 Expert Teaching
+          div
+            img(src="/static/image3.png", alt="")
+            p This is the most popular dance academy 
+
+    section#sponsersection 
+      h2 Our Sponsers
+      div#sponsers 
+        img(src="/static/logo1.jpeg", alt="Sponser Img", Class="spimg")
+        img(src="/static/logo2.png", alt="Sponser Img", Class="spimg")
+        img(src="/static/logo3.png", alt="Sponser Img", Class="spimg")
+        img(src="/static/logo4.jpeg", alt="Sponser Img", Class="spimg")
+    
+    footer#footer 
+      |copy wright popdanceacademy.com | all rights to reserved
+    script
+      include ../static/index.js

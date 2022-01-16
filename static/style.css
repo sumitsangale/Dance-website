@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#navbar{
+    background-color: #b74f4f;
+    padding: 7px 7px;
+}
+#logo img{
+    filter: invert(1);
+    /* filter: opacity(0.2); */
+    height: 30px;
+    margin-left: 10px;
+}
+
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+#navbar li{
+    list-style: none;
+}
+
+#navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 18px 30px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+}
+
+#navbar li a:hover{
+    color: black;
+}
+
+#introsection{
+    padding-bottom: 40px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Gemunu Libre', sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    background: center/cover no-repeat url("/static/bg.jpg");
+    background-color: red;
+    height: 300px;
+}
+
+#introsection div.small{
+    font-size: 27px;
+    padding: 8px;
+}
+
+#missionsection{
+    height: 300px;
+    }
+
+#missionsection h2{
+text-align: center;
+padding-top: 14px;
+font-family: 'Gemunu Libre', sans-serif;
+font-weight: bold;
+}
+
+#sponsersection{
+background-color: #eed6d5;
+height: 250px;
+}
+
+#sponsersection h2{
+text-align: center;
+padding-top: 14px;
+font-family: 'Gemunu Libre', sans-serif;
+font-weight: bold;
+}
+
+.card{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.card h3{
+    width: 30%;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 9px;
+    margin: 10px;
+    text-align: center;
+    padding: 10px;
+}
+
+.card h3 div{
+    display: flex;
+    flex-direction: row;
+}
+
+.card h3 div img{
+    height: 109px;
+    display: inherit;
+    margin-top: 10px;
+}
+
+.card h3 div p{
+    margin-top: 50px;
+}
+
+#sponsers{
+    height: 120px;
+    width: 1000px;
+    margin: auto;
+}
+
+.spimg{
+    filter: opacity(0.3);
+    display: inline-block;
+    height: 154px;
+    padding: 15px;
+    margin: 20px;
+    margin-left: 60px;
+    margin-top: 30px;
+}
+
+#footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 50px;
+    color: white;
+}
